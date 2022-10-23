@@ -97,8 +97,8 @@ class GameScreen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         Container(
-          height: MediaQuery.of(context!).size.height,
-          width: MediaQuery.of(context!).size.width * 0.15,
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width * 0.15,
           color: Colors.white,
           padding: const EdgeInsets.only(bottom: 15.0),
           alignment: Alignment.bottomCenter,
@@ -132,8 +132,8 @@ class GameScreen extends StatelessWidget {
           ),
         ),
         Container(
-          height: MediaQuery.of(context!).size.height,
-          width: MediaQuery.of(context!).size.width * 0.15,
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width * 0.15,
           color: Colors.white,
           padding: const EdgeInsets.only(bottom: 15.0),
           alignment: Alignment.bottomCenter,
